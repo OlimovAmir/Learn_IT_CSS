@@ -1,0 +1,53 @@
+
+.wrapperHearder{
+    border: 2px solid gray;
+    box-shadow: inset 0 0 15px 15px grey;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center; 
+    justify-content: center;   
+}
+
+.logo img {
+    width: 60px;
+    border-radius: 10px;
+    
+}
+
+.title {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around; 
+    padding: 10px;     
+    width: 50%;
+}
+
+.menuItem {
+    cursor: pointer;    
+    width: 80px;
+    text-align: center;
+    padding: 5px 15px;
+
+    transition: all 0.8s ease-in-out; 
+
+
+    border-radius: 20px;   
+    border: 2px solid white;
+}
+
+.menuItem:hover {
+    border: 2px solid blue; 
+    box-shadow: inset 0px 0px 5px 5px rgb(117, 117, 238);
+    color: blue;
+    font-weight: bolder;
+}

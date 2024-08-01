@@ -1,0 +1,36 @@
+.wrapperFooter{
+    border: 2px solid gray;
+    box-shadow: inset 0 0 15px 15px grey;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    height: 100%;
+    
+}
+
+.footerItem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    border: 1px solid red;
+    
+}
+
+
+.footerItem {
+    cursor: pointer;    
+    width: 80px;
+    text-align: center;
+    padding: 5px 15px;
+    transition: all 0.3s ease; 
+    border-radius: 20px;   
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.footerItem:hover {
+    border: 2px solid blue; 
+    box-shadow: inset 0px 0px 5px 5px rgb(117, 117, 238);     
+}

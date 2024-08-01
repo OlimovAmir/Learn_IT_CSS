@@ -1,0 +1,25 @@
+.wrapperImg img {
+    width: 150px;
+    transition: all 0.5s ease;
+}
+
+.wrapperImg img:hover {
+    transform: scaleX(1.5);
+    box-shadow: 0 0 10px 10px blue;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    padding: 10px; 
+}
+
+.wrapperImg {
+    background-color: #c4c3c3; 
+    padding: 10px; 
+    text-align: center; 
+    cursor: pointer;
+    overflow: hidden;
+}
+
