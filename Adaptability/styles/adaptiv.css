@@ -1,0 +1,54 @@
+.adaptivDiv::after {
+    content: "big screen";
+    height: 300px;
+    width: 300px;
+    background: black;
+    color: white;
+    display: none;
+}
+
+
+@media screen and (orientation: portrait){
+    body {
+        background: #000;
+    }
+}
+
+
+@media screen and (min-width: 768px){
+    .adaptivDiv::after {
+        content: "screen > 768";
+        
+        
+       
+    }
+    body {
+        background: rgb(9, 255, 0);
+    }
+}
+
+@media screen and (min-width: 991px){
+    .adaptivDiv::after {
+        content: "screen > 991";
+        
+        
+       
+    }
+    body {
+        background: red;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .adaptivDiv::after {
+        content: "screen < 1400";
+        background: green;
+        display: block;
+       
+    }
+
+    body {
+        background: rgb(251, 255, 0);
+    }
+  
+}
